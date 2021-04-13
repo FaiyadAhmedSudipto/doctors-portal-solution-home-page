@@ -1,18 +1,21 @@
-# Getting Started with Create React App
+# Doctors Portal Solution Home Page 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Created With Jhankar Mahbub In Module 51!
 
-## Available Scripts
+## Theme
 
-In the project directory, you can run:
+Divide all the parts in differeent files & connect theme in Homepage.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Home Page Elements
+            <Header />
+            <Services />
+            <FeaturedService />
+            <MakeAppointment />
+            <Testimonials />
+            <Blogs />
+            <Doctors />
+            <Contact />
+            <Footer />
 
 ### `npm test`
 
