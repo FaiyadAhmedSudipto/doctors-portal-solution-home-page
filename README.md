@@ -6,7 +6,7 @@ Created With Jhankar Mahbub In Module 51!
 
 Divide all the parts in differeent files & connect theme in Homepage.
 
-### Home Page Elements
+#### Home Page Elements
             <Header />
             <Services />
             <FeaturedService />
@@ -17,57 +17,73 @@ Divide all the parts in differeent files & connect theme in Homepage.
             <Contact />
             <Footer />
 
-### `npm test`
+### <Header />
+Header is the stariting part of the Home Page.
+Header contains 3 differents files.
+            <Navbar />
+            <HeaderMain />
+            <BusinessInfo />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### <Navbar />
+Navbar is the Nav part of the page.
 
-### `npm run build`
+#### <HeaderMain />
+It contains the Starting Image of the Home page with some text and button.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### <BusinessInfo />
+Showing Durtion, Location, Contact is the main work of BusinessInfo. It contains an file call InfoCard.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##### <InfoCard />
+InfoCard is the maping result of BusinessInfo.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### <Services />
+Showing the services we provide is its work.
 
-### `npm run eject`
+##### <ServiceDetail />
+ServiceDetail is the maping result of Services.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### <FeaturedService />
+Describing about their services is its work.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### <MakeAppointment />
+Want to make an Appointment? MakeAppointment may help ypu! It contains the an image with some text and a button.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### <Testimonials />
+What their patients says is showed by the Testimonials part. Testimonial is contained by it.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+##### <Testimonial />
+Testimonial is the maping result of Testimonials.
 
-## Learn More
+### <Blogs />
+Blogs will tell you some stories abou them!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+##### <BlogPost />
+BlogPost is the maping result of Blogs.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### <Doctors />
+Learn More about their Doctors.
 
-### Code Splitting
+##### <Doctor />
+Docotor is kind of maping result of Doctors. It contains the information of Doctors.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### <Contact />
+Tell them anything!
 
-### Analyzing the Bundle Size
+### <Footer />
+We reached at the ending of the Homepge!!!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+##### Notes
+**You need to install these two things for our footer from Font Awesome,
+npm install --save @fortawesome/free-brands-svg-icons
+npm install --save @fortawesome/free-regular-svg-icons
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**For Font Awesome Icons,
+npm i --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/react-fontawesome
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**For Install Bootstrap,
+npm install react-bootstrap bootstrap
+And then use this at any place in index.js(in pubic),
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
