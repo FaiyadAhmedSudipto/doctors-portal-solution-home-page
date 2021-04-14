@@ -17,7 +17,7 @@ Divide all the parts in differeent files & connect theme in Homepage.
             <Contact />
             <Footer />
 
-### <Header />
+### Header
 Header is the stariting part of the Home Page.
 Header contains 3 differents files.
             <Navbar />
