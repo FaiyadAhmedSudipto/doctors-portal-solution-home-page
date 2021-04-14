@@ -20,10 +20,12 @@ Divide all the parts in differeent files & connect theme in Homepage.
 ### Header
 Header is the stariting part of the Home Page.
 Header contains 3 differents files.
+
+## Home Page Elements
             <Navbar />
             <HeaderMain />
             <BusinessInfo />
-
+            
 #### Navbar
 Navbar is the Nav part of the page.
 
