@@ -24,52 +24,52 @@ Header contains 3 differents files.
             <HeaderMain />
             <BusinessInfo />
 
-#### <Navbar/>
+#### Navbar
 Navbar is the Nav part of the page.
 
-#### <HeaderMain />
+#### HeaderMain
 It contains the Starting Image of the Home page with some text and button.
 
-#### <BusinessInfo />
+#### BusinessInfo
 Showing Durtion, Location, Contact is the main work of BusinessInfo. It contains an file call InfoCard.
 
-##### <InfoCard />
+##### InfoCard
 InfoCard is the maping result of BusinessInfo.
 
-### <Services />
+### Services
 Showing the services we provide is its work.
 
-##### <ServiceDetail />
+##### ServiceDetail
 ServiceDetail is the maping result of Services.
 
-### <FeaturedService />
+### FeaturedService
 Describing about their services is its work.
 
-### <MakeAppointment />
+### MakeAppointment
 Want to make an Appointment? MakeAppointment may help ypu! It contains the an image with some text and a button.
 
-### <Testimonials />
+### Testimonials
 What their patients says is showed by the Testimonials part. Testimonial is contained by it.
 
-##### <Testimonial />
+##### Testimonial
 Testimonial is the maping result of Testimonials.
 
-### <Blogs />
+### Blogs
 Blogs will tell you some stories abou them!
 
-##### <BlogPost />
+##### BlogPost
 BlogPost is the maping result of Blogs.
 
-### <Doctors />
+### Doctors
 Learn More about their Doctors.
 
-##### <Doctor />
+##### Doctor
 Docotor is kind of maping result of Doctors. It contains the information of Doctors.
 
-### <Contact />
+### Contact
 Tell them anything!
 
-### <Footer />
+### Footer
 We reached at the ending of the Homepge!!!
 
 
