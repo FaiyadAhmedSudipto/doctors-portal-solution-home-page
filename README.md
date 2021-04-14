@@ -24,7 +24,7 @@ Header contains 3 differents files.
             <HeaderMain />
             <BusinessInfo />
 
-#### <Navbar />
+#### <Navbar/>
 Navbar is the Nav part of the page.
 
 #### <HeaderMain />
